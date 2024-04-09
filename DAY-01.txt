@@ -1,0 +1,16 @@
+DAY-01
+
+1)Write a blog on difference between HTTP1.1 Vs HTTP2?
+	HTTP2 encodes message into Binary data while HTTP1.1 is plain text.
+	HTTP2 is multiplexed while HTTP1.1 is ordered and blocking.
+	HTTP2 can use one connection for parallelism.
+	HTTP2 uses header compression method called HPACK to reduce overhead.
+	HTTP2 allows server pushing to add responses proactively into the browser cache.
+
+
+2)Write a Blog about objects and its internal representation in JS? 
+	Objects are collection of key:value pairs.
+	Keys are strings and value can be of any datatype.
+	The Internal representation may vary depending on JS engine or Implementation.
+	JS use Hash table to store object’s properties and their values.
+	It allows fast access and manipulation of properties.
